@@ -7,13 +7,13 @@ namespace task1
         static void Main()
         {
             Console.Write("a= ");
-            double a = Convert.ToDouble(Console.ReadLine().Replace('.', ','));
+            double a = Convert.ToDouble(Console.ReadLine()!.Replace('.', ','));
 
             Console.Write("b= ");
-            double b = Convert.ToDouble(Console.ReadLine().Replace('.', ','));
+            double b = Convert.ToDouble(Console.ReadLine()!.Replace('.', ','));
 
             Console.Write("c= ");
-            double c = Convert.ToDouble(Console.ReadLine().Replace('.', ','));
+            double c = Convert.ToDouble(Console.ReadLine()!.Replace('.', ','));
 
             Console.WriteLine("({0:0.00}+{1:0.00})+{2:0.00} = {0:0.00}+({1:0.00}+{2:0.00})",
                 a, b, c);
