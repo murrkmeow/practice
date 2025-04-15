@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите значния ОТ и ДО подряд: ");
+            Console.WriteLine("Введите значния A и B подряд (A < B, 1 <= A,B <=100): ");
             int a = int.Parse(Console.ReadLine()!);
             int b = int.Parse(Console.ReadLine()!);
             
@@ -17,9 +17,13 @@
                 }
                 Console.WriteLine($"Сумма чисел от {a} до {b}: {sum}");
             }
-            else
+            else if (b < a)
             {
                 Console.WriteLine("Число А > В");
+            }
+            else
+            {
+                Console.WriteLine("Не соблюдено условие неравенств (1 <= A,B <=100).");
             }
         }
     }
