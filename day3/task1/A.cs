@@ -13,8 +13,8 @@ namespace task1
 
         public A(int a, int b)
         {
-            a = this.a;
-            b = this.b;
+            this.a = a;
+            this.b = b;
         }
 
         public double Calc(int a, int b)
