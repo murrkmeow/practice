@@ -1,24 +1,37 @@
 ﻿namespace task2
 {
-    class Program
+    internal class Program
     {
         static void Main()
         {
-            Clothing[] clothes = new Clothing[]
+            Bird[] birds = new Bird[]
             {
-            new Coat("Пальто зимнее", 52),
-            new Suit("Костюм офисный", 1.75),
-            new Coat("Пальто осеннее", 48),
-            new Suit("Костюм спортивный", 1.85),
-            new Coat("Пальто лёгкое", 50)
+            new Stork("Белый аист", 5.2),
+            new Crow("Городская стая", 8),
+            new Stork("Африканский аист", 6.1),
+            new Crow("Лесная стая", 5),
+            new Stork("Аист с клювом", 4.8)
             };
 
-            Console.WriteLine("Протокол расчёта расхода ткани:\n");
+            double totalStorkFood = 0;
+            double totalCrowFood = 0;
 
-            foreach (Clothing item in clothes)
+            Console.WriteLine("Потребность птиц в пище\n");
+
+            foreach (Bird bird in birds)
             {
-                item.PrintInfo();
+                bird.PrintInfo();
+
+                if (bird is Stork)
+                    totalStorkFood += bird.GetFoodAmount();
+                else if (bird is Crow)
+                    totalCrowFood += bird.GetFoodAmount();
             }
+
+            Console.WriteLine("Итоги");
+            Console.WriteLine($"Общая пища для аистов: {totalStorkFood:F2} кг");
+            Console.WriteLine($"Общая пища для ворон: {totalCrowFood:F2} кг");
         }
     }
+
 }
