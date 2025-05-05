@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task1", "task1\task1.csproj", "{70638ED1-861E-4785-AFDD-9AE3C5D199B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryLibrary", "..\GeometryLibrary\GeometryLibrary.csproj", "{1A445AE4-69F2-4C52-BE46-6426E60D3DB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank", "..\Bank\Bank.csproj", "{5461814D-C4D7-493D-A8C5-E0B24057A2A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70638ED1-861E-4785-AFDD-9AE3C5D199B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70638ED1-861E-4785-AFDD-9AE3C5D199B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70638ED1-861E-4785-AFDD-9AE3C5D199B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70638ED1-861E-4785-AFDD-9AE3C5D199B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A445AE4-69F2-4C52-BE46-6426E60D3DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A445AE4-69F2-4C52-BE46-6426E60D3DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A445AE4-69F2-4C52-BE46-6426E60D3DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A445AE4-69F2-4C52-BE46-6426E60D3DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5461814D-C4D7-493D-A8C5-E0B24057A2A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5461814D-C4D7-493D-A8C5-E0B24057A2A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5461814D-C4D7-493D-A8C5-E0B24057A2A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5461814D-C4D7-493D-A8C5-E0B24057A2A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E523462-84AB-4E47-B296-10CF375ED3FF}
+	EndGlobalSection
+EndGlobal

@@ -7,7 +7,7 @@ class Program
     {
         string targetDrive = "C:\\";
         string newDirectory = Path.Combine(targetDrive, "Exmple_38tp");
-        string sourceDirectory = "D:\\Games"; // Укажите исходную папку с файлами
+        string sourceDirectory = "C:\\done";
         string[] filesToCopy = Directory.GetFiles(sourceDirectory).Take(3).ToArray();
 
         Directory.CreateDirectory(newDirectory);
