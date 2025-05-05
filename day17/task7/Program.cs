@@ -7,7 +7,7 @@ class Program
     {
         string targetDrive = "C:\\";
         string newDirectory = Path.Combine(targetDrive, "Exmple_38tp");
-        string sourceDirectory = "C:\\done";
+        string sourceDirectory = "С:\\done";
         string[] filesToCopy = Directory.GetFiles(sourceDirectory).Take(3).ToArray();
 
         Directory.CreateDirectory(newDirectory);
