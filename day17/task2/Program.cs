@@ -6,7 +6,6 @@
 
         try
         {
-            // Создание папки
             Directory.CreateDirectory(folderPath);
             Console.WriteLine($"Папка \"{folderPath}\" успешно создана!");
         }
