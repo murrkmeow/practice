@@ -31,10 +31,6 @@ class Program
         account1.Withdraw(5000); // Проверка на недостаточность средств
 
         BankAccount account2 = new BankAccount("Текущий", 3000, notifier);
-        account2.PrintInfo();
-
-
-
-       
+        account2.PrintInfo();     
 }
 }

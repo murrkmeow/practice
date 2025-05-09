@@ -1,7 +1,17 @@
-﻿namespace task2
+﻿/// <summary>
+/// Пространство имен, содержащее программу Task2.
+/// </summary>
+namespace task2
 {
+    /// <summary>
+    /// Основной класс программы Task2.
+    /// </summary>
     internal class Program
     {
+        /// <summary>
+        /// Метод, переворачивающий цифры в числе.
+        /// </summary>
+        /// <param name="K">Число, цифры которого будут инвертированы.</param>
         static void InvDigits(ref int K)
         {
             int reversed = 0;
@@ -13,8 +23,15 @@
             K = reversed;
         }
 
+        /// <summary>
+        /// Главный метод программы. Запрашивает у пользователя пять целых чисел,
+        /// переворачивает их и выводит результат.
+        /// </summary>
         static void Main()
         {
+            /// <summary>
+            /// Массив для хранения введенных пользователем чисел.
+            /// </summary>
             int[] numbers = new int[5];
 
             Console.WriteLine("Введите 5 целых положительных чисел:");
@@ -32,5 +49,4 @@
             }
         }
     }
-
 }

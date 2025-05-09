@@ -1,7 +1,20 @@
-﻿namespace task1
+﻿/// <summary>
+/// Пространство имен, содержащее программу Task1.
+/// </summary>
+namespace task1
 {
+    /// <summary>
+    /// Основной класс программы Task1.
+    /// </summary>
     internal class Program
     {
+        /// <summary>
+        /// Вычисляет значение функции f(x).
+        /// </summary>
+        /// <param name="x">Значение переменной x.</param>
+        /// <param name="a">Параметр a, введенный пользователем.</param>
+        /// <param name="b">Параметр b, введенный пользователем.</param>
+        /// <returns>Значение функции f(x).</returns>
         static double CalculateFx(double x, double a, double b)
         {
             if (Math.Abs(x) < 1)
@@ -18,6 +31,9 @@
             }
         }
 
+        /// <summary>
+        /// Главный метод программы, выполняющий ввод данных и вычисление функции f(x).
+        /// </summary>
         static void Main()
         {
             Console.Write("Введите значение a: ");

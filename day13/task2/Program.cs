@@ -1,12 +1,39 @@
-﻿namespace task2
+﻿/// <summary>
+/// Пространство имен, содержащие программу Task2.
+/// </summary>
+namespace task2
 {
+    /// <summary>
+    /// Основной класс программы Task2.
+    /// </summary>
     internal class Program
     {
+        /// <summary>
+        /// Главный метод программы. Реализует простейший калькулятор с операциями сложения, вычитания, умножения и деления.
+        /// </summary>
         static void Main()
         {
+            /// <summary>
+            /// Лямбда-выражение для сложения двух чисел.
+            /// </summary>
             Func<double, double, double> Add = (a, b) => a + b;
+
+            /// <summary>
+            /// Лямбда-выражение для вычитания одного числа из другого.
+            /// </summary>
             Func<double, double, double> Sub = (a, b) => a - b;
+
+            /// <summary>
+            /// Лямбда-выражение для умножения двух чисел.
+            /// </summary>
             Func<double, double, double> Mul = (a, b) => a * b;
+
+            /// <summary>
+            /// Лямбда-выражение для деления одного числа на другое.
+            /// </summary>
+            /// <param name="a">Делимое.</param>
+            /// <param name="b">Делитель.</param>
+            /// <returns>Результат деления или NaN, если деление на ноль.</returns>
             Func<double, double, double> Div = (a, b) =>
             {
                 if (b == 0)
@@ -55,5 +82,4 @@
             }
         }
     }
-
 }
