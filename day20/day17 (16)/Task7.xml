@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>task7</name>
+    </assembly>
+    <members>
+        <member name="T:Program">
+            <summary>
+            Основной класс программы.
+            </summary>
+        </member>
+        <member name="M:Program.Main">
+            <summary>
+            Главный метод программы. Создает новый каталог, копирует файлы, скрывает их и создает ссылки.
+            </summary>
+        </member>
+    </members>
+</doc>

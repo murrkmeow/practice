@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>task4</name>
+    </assembly>
+    <members>
+        <member name="T:task4.Program">
+            <summary>
+            Основной класс программы Task4.
+            </summary>
+        </member>
+        <member name="M:task4.Program.Min(System.Double,System.Double)">
+            <summary>
+            Метод для вычисления минимального значения между двумя числами.
+            </summary>
+            <param name="a">Первое число.</param>
+            <param name="b">Второе число.</param>
+            <returns>Минимальное из двух чисел.</returns>
+        </member>
+        <member name="M:task4.Program.Min(System.Double,System.Double,System.Double)">
+            <summary>
+            Метод для вычисления минимального значения среди трех чисел.
+            </summary>
+            <param name="a">Первое число.</param>
+            <param name="b">Второе число.</param>
+            <param name="c">Третье число.</param>
+            <returns>Минимальное из трех чисел.</returns>
+        </member>
+        <member name="M:task4.Program.Main">
+            <summary>
+            Главный метод программы. Запрашивает у пользователя числа и вычисляет произведение минимальных значений.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>task1</name>
+    </assembly>
+    <members>
+        <member name="T:task1.Program">
+            <summary>
+            Основной класс программы Task1.
+            </summary>
+        </member>
+        <member name="T:task1.Program.CalcFigure">
+            <summary>
+            Делегат для вычисления параметров фигуры.
+            </summary>
+        </member>
+        <member name="M:task1.Program.Get_Length(System.Double)">
+            <summary>
+            Вычисляет длину окружности по радиусу.
+            </summary>
+            <param name="R">Радиус окружности.</param>
+            <returns>Длина окружности.</returns>
+        </member>
+        <member name="M:task1.Program.Get_Area(System.Double)">
+            <summary>
+            Вычисляет площадь круга по радиусу.
+            </summary>
+            <param name="R">Радиус круга.</param>
+            <returns>Площадь круга.</returns>
+        </member>
+        <member name="M:task1.Program.Get_Volume(System.Double)">
+            <summary>
+            Вычисляет объем шара по радиусу.
+            </summary>
+            <param name="R">Радиус шара.</param>
+            <returns>Объем шара.</returns>
+        </member>
+        <member name="M:task1.Program.Main">
+            <summary>
+            Главный метод программы. Выводит вычисленные параметры фигуры.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>task2</name>
+    </assembly>
+    <members>
+        <member name="T:task2.Program">
+            <summary>
+            Основной класс программы Task2.
+            </summary>
+        </member>
+        <member name="M:task2.Program.InvDigits(System.Int32@)">
+            <summary>
+            Метод, переворачивающий цифры в числе.
+            </summary>
+            <param name="K">Число, цифры которого будут инвертированы.</param>
+        </member>
+        <member name="M:task2.Program.Main">
+            <summary>
+            Главный метод программы. Запрашивает у пользователя пять целых чисел,
+            переворачивает их и выводит результат.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>task4</name>
+    </assembly>
+    <members>
+        <member name="T:task4.Program">
+            <summary>
+            Основной класс программы Task4.
+            </summary>
+        </member>
+        <member name="T:task4.Program.RandomDelegate">
+            <summary>
+            Делегат, генерирующий случайное число.
+            </summary>
+        </member>
+        <member name="M:task4.Program.Main">
+            <summary>
+            Главный метод программы. Создает массив делегатов, вычисляет случайные числа и их среднее значение.
+            </summary>
+        </member>
+    </members>
+</doc>

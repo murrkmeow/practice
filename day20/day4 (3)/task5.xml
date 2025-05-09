@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>task5</name>
+    </assembly>
+    <members>
+        <member name="T:task5.RealMatrix">
+            <summary>
+            Класс, представляющий матрицу с вещественными числами.
+            </summary>
+        </member>
+        <member name="F:task5.RealMatrix.data">
+            <summary>
+            Двумерный массив для хранения значений матрицы.
+            </summary>
+        </member>
+        <member name="P:task5.RealMatrix.Rows">
+            <summary>
+            Количество строк в матрице.
+            </summary>
+        </member>
+        <member name="P:task5.RealMatrix.Columns">
+            <summary>
+            Количество столбцов в матрице.
+            </summary>
+        </member>
+        <member name="M:task5.RealMatrix.#ctor">
+            <summary>
+            Конструктор по умолчанию. Создает матрицу 1x1 с значением 1.
+            </summary>
+        </member>
+        <member name="M:task5.RealMatrix.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Конструктор, создающий матрицу заданного размера.
+            </summary>
+            <param name="rows">Количество строк.</param>
+            <param name="columns">Количество столбцов.</param>
+        </member>
+        <member name="P:task5.RealMatrix.Item(System.Int32,System.Int32)">
+            <summary>
+            Индексатор для доступа к элементам матрицы.
+            </summary>
+            <param name="i">Индекс строки.</param>
+            <param name="j">Индекс столбца.</param>
+        </member>
+        <member name="M:task5.RealMatrix.Clone">
+            <summary>
+            Создает копию текущей матрицы.
+            </summary>
+            <returns>Копия матрицы.</returns>
+        </member>
+        <member name="M:task5.RealMatrix.Print">
+            <summary>
+            Метод для вывода матрицы в консоль.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>task1</name>
+    </assembly>
+    <members>
+        <member name="T:task1.Program">
+            <summary>
+            Основной класс программы Task1.
+            </summary>
+        </member>
+        <member name="M:task1.Program.CalculateFx(System.Double,System.Double,System.Double)">
+            <summary>
+            Вычисляет значение функции f(x).
+            </summary>
+            <param name="x">Значение переменной x.</param>
+            <param name="a">Параметр a, введенный пользователем.</param>
+            <param name="b">Параметр b, введенный пользователем.</param>
+            <returns>Значение функции f(x).</returns>
+        </member>
+        <member name="M:task1.Program.Main">
+            <summary>
+            Главный метод программы, выполняющий ввод данных и вычисление функции f(x).
+            </summary>
+        </member>
+    </members>
+</doc>

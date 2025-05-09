@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>task3</name>
+    </assembly>
+    <members>
+        <member name="T:task3.Program">
+            <summary>
+            Основной класс программы Task3.
+            </summary>
+        </member>
+        <member name="T:task3.Program.StringOperation">
+            <summary>
+            Делегат для выполнения операций над строками.
+            </summary>
+        </member>
+        <member name="M:task3.Program.ToUpperCase(System.String)">
+            <summary>
+            Преобразует строку в верхний регистр и выводит результат.
+            </summary>
+            <param name="str">Исходная строка.</param>
+        </member>
+        <member name="M:task3.Program.ToLowerCase(System.String)">
+            <summary>
+            Преобразует строку в нижний регистр и выводит результат.
+            </summary>
+            <param name="str">Исходная строка.</param>
+        </member>
+        <member name="M:task3.Program.GetLength(System.String)">
+            <summary>
+            Определяет длину строки и выводит результат.
+            </summary>
+            <param name="str">Исходная строка.</param>
+        </member>
+        <member name="M:task3.Program.Main">
+            <summary>
+            Главный метод программы. Запрашивает у пользователя строку и выполняет операции.
+            </summary>
+        </member>
+    </members>
+</doc>

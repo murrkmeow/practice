@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>task5</name>
+    </assembly>
+    <members>
+        <member name="T:Program">
+            <summary>
+            Основной класс программы.
+            </summary>
+        </member>
+        <member name="M:Program.Main">
+            <summary>
+            Главный метод программы. Создает два файла с числами, анализирует данные и выводит результаты.
+            </summary>
+        </member>
+        <member name="M:Program.GenerateFile(System.String,System.Int32)">
+            <summary>
+            Генерирует файл с заданным количеством случайных чисел.
+            </summary>
+            <param name="filePath">Путь к файлу.</param>
+            <param name="count">Количество чисел.</param>
+        </member>
+        <member name="M:Program.ReadNumbersFromFile(System.String)">
+            <summary>
+            Читает числа из файла и возвращает их в виде массива.
+            </summary>
+            <param name="filePath">Путь к файлу.</param>
+            <returns>Массив чисел.</returns>
+        </member>
+        <member name="M:Program.AnalyzeNumbers(System.String)">
+            <summary>
+            Анализирует числа в файле, выводя количество положительных, отрицательных и нулей.
+            </summary>
+            <param name="filePath">Путь к файлу.</param>
+        </member>
+    </members>
+</doc>

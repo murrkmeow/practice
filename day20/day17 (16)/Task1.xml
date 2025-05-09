@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>task1</name>
+    </assembly>
+    <members>
+        <member name="T:Program">
+            <summary>
+            Основной класс программы.
+            </summary>
+        </member>
+        <member name="M:Program.Main">
+            <summary>
+            Главный метод программы. Читает числа из файла, подсчитывает количество четных и выводит результат.
+            </summary>
+        </member>
+    </members>
+</doc>

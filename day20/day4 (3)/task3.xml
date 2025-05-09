@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>task3</name>
+    </assembly>
+    <members>
+        <member name="T:task3.TwoDimensionalArray">
+            <summary>
+            Класс, представляющий двумерный массив.
+            </summary>
+        </member>
+        <member name="F:task3.TwoDimensionalArray.array">
+            <summary>
+            Двумерный массив для хранения элементов.
+            </summary>
+        </member>
+        <member name="M:task3.TwoDimensionalArray.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Конструктор, создающий двумерный массив заданного размера.
+            </summary>
+            <param name="rows">Количество строк.</param>
+            <param name="cols">Количество столбцов.</param>
+        </member>
+        <member name="P:task3.TwoDimensionalArray.Item(System.Int32,System.Int32)">
+            <summary>
+            Индексатор для доступа к элементам массива.
+            </summary>
+            <param name="i">Индекс строки.</param>
+            <param name="j">Индекс столбца.</param>
+        </member>
+        <member name="M:task3.TwoDimensionalArray.MainDiagonalSum">
+            <summary>
+            Вычисляет сумму элементов главной диагонали.
+            </summary>
+            <returns>Сумма элементов главной диагонали.</returns>
+        </member>
+        <member name="M:task3.TwoDimensionalArray.op_GreaterThan(task3.TwoDimensionalArray,task3.TwoDimensionalArray)">
+            <summary>
+            Оператор сравнения "больше", основанный на сумме главной диагонали.
+            </summary>
+            <param name="a">Первый массив.</param>
+            <param name="b">Второй массив.</param>
+            <returns>True, если сумма главной диагонали первого массива больше.</returns>
+        </member>
+        <member name="M:task3.TwoDimensionalArray.op_LessThan(task3.TwoDimensionalArray,task3.TwoDimensionalArray)">
+            <summary>
+            Оператор сравнения "меньше", основанный на сумме главной диагонали.
+            </summary>
+            <param name="a">Первый массив.</param>
+            <param name="b">Второй массив.</param>
+            <returns>True, если сумма главной диагонали первого массива меньше.</returns>
+        </member>
+        <member name="T:task3.Program">
+            <summary>
+            Основной класс программы Task3.
+            </summary>
+        </member>
+        <member name="M:task3.Program.Main">
+            <summary>
+            Главный метод программы. Позволяет пользователю вводить массивы и сравнивает их.
+            </summary>
+        </member>
+    </members>
+</doc>

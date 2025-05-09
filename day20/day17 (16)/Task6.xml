@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>task6</name>
+    </assembly>
+    <members>
+        <member name="T:Program">
+            <summary>
+            Основной класс программы.
+            </summary>
+        </member>
+        <member name="M:Program.Main">
+            <summary>
+            Главный метод программы. Анализирует оценки студентов, определяет отличников и вычисляет средние баллы по предметам.
+            </summary>
+        </member>
+    </members>
+</doc>

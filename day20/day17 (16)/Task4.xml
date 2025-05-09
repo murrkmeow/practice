@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>task4</name>
+    </assembly>
+    <members>
+        <member name="T:Program">
+            <summary>
+            Основной класс программы.
+            </summary>
+        </member>
+        <member name="M:Program.Main">
+            <summary>
+            Главный метод программы. Читает строки из файла, разделяет их на четные и нечетные, затем записывает в отдельные файлы.
+            </summary>
+        </member>
+    </members>
+</doc>
