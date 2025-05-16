@@ -1,4 +1,4 @@
-﻿namespace WinFormsApp2
+﻿namespace WinFormsApp3
 {
     partial class Form1
     {
@@ -28,32 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            userControlTimerNewTry1 = new UserControlTimerNewTry();
             SuspendLayout();
-            // 
-            // userControlTimerNewTry1
-            // 
-            userControlTimerNewTry1.Font = new Font("Segoe UI", 14.8301888F);
-            userControlTimerNewTry1.Location = new Point(14, 39);
-            userControlTimerNewTry1.Margin = new Padding(5);
-            userControlTimerNewTry1.Name = "userControlTimerNewTry1";
-            userControlTimerNewTry1.Size = new Size(179, 109);
-            userControlTimerNewTry1.TabIndex = 2;
-            userControlTimerNewTry1.TimeEnabled = true;
-            userControlTimerNewTry1.Load += userControlTimerNewTry1_Load;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 17F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(207, 154);
-            Controls.Add(userControlTimerNewTry1);
+            ClientSize = new Size(800, 450);
             Name = "Form1";
             Text = "Form1";
+            Paint += Form1_Paint;
             ResumeLayout(false);
         }
 
         #endregion
-        private UserControlTimerNewTry userControlTimerNewTry1;
     }
 }

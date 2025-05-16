@@ -14,5 +14,10 @@ namespace WinFormsApp2
         {
 
         }
+
+        private void userControlTimerNewTry1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
